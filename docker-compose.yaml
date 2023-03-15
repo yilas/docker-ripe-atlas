@@ -7,8 +7,8 @@ services:
     environment:
       RXTXRPT: "yes"
     volumes:
-      - "/var/atlas-probe/etc:/var/atlas-probe/etc"
-      - "/var/atlas-probe/status:/var/atlas-probe/status"
+      - "./atlas-probe/etc:/var/atlas-probe/etc"
+      - "./atlas-probe/status:/var/atlas-probe/status"
     cap_drop:
       - ALL
     cap_add:

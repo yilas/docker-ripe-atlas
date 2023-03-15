@@ -70,4 +70,7 @@ tags
 # Persistent undo
 [._]*.un~
 
+# Atlas
+atlas-probe
+
 # End of https://www.toptal.com/developers/gitignore/api/vim,macos,git
